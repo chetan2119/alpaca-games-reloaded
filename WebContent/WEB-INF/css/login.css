@@ -1,3 +1,25 @@
+/* Set a style for the login button */
+.loginbtn {
+  background-color: #204a86ba;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+/* Set a style for the register button */
+.registerbtn {
+  background-color: #204a86ba;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
 
 .panel-login {
 	border-color: rgb(87, 82, 82);
@@ -20,9 +42,9 @@
 	-moz-transition: all 0.1s linear;
 	transition: all 0.1s linear;
 }
-.panel-login>.panel-heading a.active{
-	color:#004D85;
-	font-size: 18px;
+.panel-login>.panel-heading button.active{
+	background-color:#004D85;
+	color:#FFF;
 }
 .panel-login>.panel-heading hr{
 	margin-top: 10px;
@@ -64,8 +86,8 @@
 }
 .btn-login:hover,
 .btn-login:focus {
-	color: #fff;
-	background-color: #0077CC;
+	color: #FFF;
+	background-color: #004D85;
 	border-color:#0077CC;
 }
 .forgot-password {
@@ -91,7 +113,11 @@
 }
 .btn-register:hover,
 .btn-register:focus {
-	color: #fff;
-	background-color:#0077CC;
+	color: #FFF;
+	background-color:#004D85;
 	border-color:#0077CC;
+}
+
+.form-control{
+	color:white;
 }
