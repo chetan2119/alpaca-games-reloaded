@@ -1,4 +1,9 @@
-/* Set a style for the login button */
+
+
+body{
+	height: 100%;
+}
+
 .loginbtn {
   background-color: #204a86ba;
   color: white;
