@@ -101,6 +101,15 @@
     font-size: xx-large;
 }
 
+.title a{
+  color:white; 
+}
+
+.title  a:hover {
+  color: #fff; /*the default color*/
+  text-decoration: none;
+}
+
 .game-title-font{
     font-weight: bold;
 }
